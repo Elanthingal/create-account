@@ -14,7 +14,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  URL: ${{"www.google.com"}}
+  URL: "www.google.com"
   
 jobs:
   build:
